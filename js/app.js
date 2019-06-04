@@ -5,4 +5,5 @@ let count = 0;
 // Click event listener on catImage
 catImage.addEventListener('click', function() {
   count++;
+  counter.innerHTML = count;  
 });
