@@ -10,6 +10,8 @@ nameElement2.textContent = catName2;
 document.querySelector('#container1').insertAdjacentElement('afterbegin',
 nameElement1);
 // Cat 2
+document.querySelector('#container2').insertAdjacentElement('afterbegin',
+nameElement2);
 
 const catImage = document.querySelector('.cat-image');
 const counter = document.querySelector('.click-count');
