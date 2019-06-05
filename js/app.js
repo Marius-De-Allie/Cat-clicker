@@ -1,6 +1,7 @@
 const catName1 = 'Whiskers';
 const catName2 = 'Leo';
-const nameElement = document.createElement('p');
+const nameElement1 = document.createElement('p');
+nameElement1.textContent = catName1;
 
 const catImage = document.querySelector('.cat-image');
 const counter = document.querySelector('.click-count');
