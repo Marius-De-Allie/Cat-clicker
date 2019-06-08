@@ -13,7 +13,7 @@ nameElement1);
 document.querySelector('#container2').insertAdjacentElement('afterbegin',
 nameElement2);
 
-const catImage = document.querySelector('.cat-image');
+const catImage = document.querySelector('#cat1-image');
 const counter = document.querySelector('.click-count');
 let count = 0;
 
